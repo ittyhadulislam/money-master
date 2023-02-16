@@ -13,7 +13,12 @@ input
     color: red;
     display: none;
 }
-
+section
+{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
 @media only screen and (max-width: 600px) {
 .save {
     flex-direction: column;
